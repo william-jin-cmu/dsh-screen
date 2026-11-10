@@ -20,10 +20,10 @@ The `/screen` command shows which permissions are granted and whether screen mem
 Requires DSH `>=0.2.1-rc.5 <0.3.0` and Node.js 22.19 or later.
 
 ```sh
-dsh plugin --profile web add ./dsh-screen-0.1.0.tgz
+dsh plugin --profile web add https://github.com/william-jin-cmu/dsh-screen/releases/download/v0.1.0/dsh-screen-0.1.0.tgz
 ```
 
-In the desktop app, use Plugins > Add plugin with the path of the tarball instead.
+In the desktop app, use Plugins > Add plugin with the same URL.
 
 The helper runs as a child of DSH, so macOS asks for **Accessibility** for the app DSH runs in: your terminal for `dsh web`, or the DSH desktop app. Screen Recording is only needed for screenshots.
 
