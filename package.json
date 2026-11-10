@@ -39,6 +39,15 @@
     "macos"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/william-jin-cmu/dsh-screen.git"
+  },
+  "homepage": "https://github.com/william-jin-cmu/dsh-screen#readme",
+  "bugs": {
+    "url": "https://github.com/william-jin-cmu/dsh-screen/issues"
+  },
+  "author": "William Jin",
   "scripts": {
     "build": "node scripts/build.mjs",
     "typecheck": "tsc --noEmit -p tsconfig.json",
